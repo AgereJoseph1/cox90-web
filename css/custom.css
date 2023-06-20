@@ -1,0 +1,378 @@
+/*------------------------------------------------------------------
+[Custom Template Stylesheet]
+
+Project:	Cosmetic Agency Html Responsive Template
+Version:	1.1
+Primary use:	Cosmetic Agency Html Responsive Template
+-------------------------------------------------------------------*/
+
+/*add your style css here*/
+
+.loader2 {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #e64567; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    right: 30%;
+    animation: spiner 2s linear infinite;
+}
+
+@keyframes spiner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 767px) {
+
+    .row.reorder-xs {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+    
+      direction: rtl;
+    }
+    
+    .row.reorder-xs > [class*="col-"] {
+      -webkit-transform: rotate(-180deg);
+      -moz-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+      -o-transform: rotate(-180deg);
+      transform: rotate(-180deg);
+    
+      direction: ltr;
+    }
+    
+	#display_item .col-xs-6 {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+    }
+
+    /* Titile section */
+    
+.title-section {
+  border-bottom: 1px solid #454545;
+  margin-bottom: 30px;
+}
+.title-section h1 {
+  color: #222222;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  margin-bottom: -1px;
+  color: #ffffff;
+}
+.title-section h1 span {
+  display: inline-block;
+  padding-bottom: 16px;
+  padding-right: 5px;
+  border-bottom: 1px solid #f44336;
+}
+.title-section h1 span.world {
+  border-bottom: 1px solid #33a3f1;
+}
+.title-section h1 span.fashion {
+  border-bottom: 1px solid #aa35d6;
+}
+.title-section h1 span.travel {
+  border-bottom: 1px solid #f58021;
+}
+.title-section h1 span.sport {
+  border-bottom: 1px solid #4c60f6;
+}
+.title-section h1 span.food {
+  border-bottom: 1px solid #32b47b;
+}
+.title-section .arrow-box {
+  float: right;
+  text-align: right;
+}
+.title-section .arrow-box a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  font-size: 11px;
+  color: #999999;
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  text-align: center;
+  background: transparent;
+  border: 1px solid #cccccc;
+  margin-left: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.title-section .arrow-box a:hover {
+  color: #ffffff;
+  background: #f44336;
+  border: 1px solid #f44336;
+}
+.title-section.white {
+  border-bottom: 1px solid #444444;
+}
+.title-section.white h1 {
+  color: #ffffff;
+}
+.title-section.white .arrow-box a {
+  color: #666666;
+  border: 1px solid #666666;
+}
+.title-section.white .arrow-box a:hover {
+  color: #ffffff;
+  border: 1px solid #f44336;
+}
+
+
+
+/*-------------------------------------------------*/
+/* =  Log in popup
+/*-------------------------------------------------*/
+.white-popup {
+    position: relative;
+    padding: 30px;
+    width: auto;
+    max-width: 430px;
+    margin: 20px auto;
+    background: #FFF;
+  }
+  .white-popup .mfp-close-btn-in .mfp-close {
+    color: #222222 !important;
+    width: 16px !important;
+    padding-top: 20px !important;
+    padding-right: 45px !important;
+  }
+  #log-in-popup {
+    overflow: hidden;
+  }
+  #log-in-popup div.login-form .title-section,
+  #log-in-popup div.register-form .title-section,
+  #log-in-popup div.lost-password-form .title-section {
+    margin-bottom: 18px;
+  }
+  #log-in-popup div.login-form p,
+  #log-in-popup div.register-form p,
+  #log-in-popup div.lost-password-form p {
+    font-size: 11px;
+    margin: 0 0 18px;
+    color: #666;
+  }
+  #log-in-popup div.login-form label,
+  #log-in-popup div.register-form label,
+  #log-in-popup div.lost-password-form label {
+    display: block;
+    margin: 0 0 5px;
+    color: #222222;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+  #log-in-popup div.login-form label span,
+  #log-in-popup div.register-form label span,
+  #log-in-popup div.lost-password-form label span {
+    color: #f44336;
+  }
+  #log-in-popup div.login-form input[type="text"],
+  #log-in-popup div.register-form input[type="text"],
+  #log-in-popup div.lost-password-form input[type="text"],
+  #log-in-popup div.login-form input[type="password"],
+  #log-in-popup div.register-form input[type="password"],
+  #log-in-popup div.lost-password-form input[type="password"] {
+    display: block;
+    margin: 0 0 17px;
+    color: #666666;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    background: #fafafa;
+    outline: none;
+    padding: 10px 20px;
+  }
+  #log-in-popup div.login-form button,
+  #log-in-popup div.register-form button,
+  #log-in-popup div.lost-password-form button {
+    border: none;
+    float: left;
+    padding: 8px 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    background: #222222;
+    color: #ffffff;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 49px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  }
+  #log-in-popup div.login-form button i,
+  #log-in-popup div.register-form button i,
+  #log-in-popup div.lost-password-form button i {
+    margin-right: 8px;
+  }
+  #log-in-popup div.login-form button:hover,
+  #log-in-popup div.register-form button:hover,
+  #log-in-popup div.lost-password-form button:hover {
+    background: #f44336;
+  }
+  #log-in-popup div.login-form input[type="checkbox"],
+  #log-in-popup div.register-form input[type="checkbox"],
+  #log-in-popup div.lost-password-form input[type="checkbox"] {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  #log-in-popup div.login-form span,
+  #log-in-popup div.register-form span,
+  #log-in-popup div.lost-password-form span {
+    display: inline-block;
+    color: #222222;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 8px;
+  }
+  #log-in-popup div.login-form > a,
+  #log-in-popup div.register-form > a,
+  #log-in-popup div.lost-password-form > a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    float: right;
+    color: #222222;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+    margin-top: 8px;
+  }
+  #log-in-popup div.login-form > a:hover,
+  #log-in-popup div.register-form > a:hover,
+  #log-in-popup div.lost-password-form > a:hover {
+    color: #f44336;
+  }
+  #log-in-popup div.login-form p.register-line,
+  #log-in-popup div.register-form p.register-line,
+  #log-in-popup div.lost-password-form p.register-line,
+  #log-in-popup div.login-form p.login-line,
+  #log-in-popup div.register-form p.login-line,
+  #log-in-popup div.lost-password-form p.login-line {
+    margin-top: 10px;
+    margin-bottom: 0;
+    clear: both;
+  }
+  #log-in-popup div.login-form p.register-line a,
+  #log-in-popup div.register-form p.register-line a,
+  #log-in-popup div.lost-password-form p.register-line a,
+  #log-in-popup div.login-form p.login-line a,
+  #log-in-popup div.register-form p.login-line a,
+  #log-in-popup div.lost-password-form p.login-line a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    color: #222222;
+    font-size: 11px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: underline;
+  }
+  #log-in-popup div.login-form p.register-line a:hover,
+  #log-in-popup div.register-form p.register-line a:hover,
+  #log-in-popup div.lost-password-form p.register-line a:hover,
+  #log-in-popup div.login-form p.login-line a:hover,
+  #log-in-popup div.register-form p.login-line a:hover,
+  #log-in-popup div.lost-password-form p.login-line a:hover {
+    color: #f44336;
+  }
+  #log-in-popup div.register-form,
+  #log-in-popup div.lost-password-form {
+    display: none;
+  }
+  #log-in-popup div.register-form p,
+  #log-in-popup div.lost-password-form p {
+    clear: both;
+    margin: 10px 0 0;
+  }
+  #log-in-popup div.register-form button,
+  #log-in-popup div.lost-password-form button {
+    float: none;
+  }
+  a.log-in-popup {
+    outline: none;
+  }
+  
+  .tag {
+    display: inline-block;
+    
+    width: auto;
+    height: 38px;
+    
+    background-color: #e91e63;
+    -webkit-border-radius: 3px 4px 4px 3px;
+    -moz-border-radius: 3px 4px 4px 3px;
+    border-radius: 3px 4px 4px 3px;
+    
+    border-left: 1px solid #e91e63;
+  
+    /* This makes room for the triangle */
+    margin-left: 19px;
+    
+    position: relative;
+    
+    color: white;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    line-height: 38px;
+  
+    padding: 0 10px 0 10px;
+  }
+  
+  /* Makes the triangle */
+  .tag:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: -19px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-right: 19px solid #e91e63;
+  }
+  
+  /* Makes the circle */
+  .tag:after {
+    content: "";
+    background-color: white;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: -9px;
+    top: 17px;
+  }

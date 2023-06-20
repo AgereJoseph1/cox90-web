@@ -1,0 +1,248 @@
+
+
+/*loader2 start */
+
+.loader2 {
+  background: #ffffff;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1200;
+}
+
+#lawsload-pageloading2:after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#lawsload-pageloading2 .awsload-wrap2 {
+  position: absolute;
+  top: 45%;
+  bottom: 45%;
+  left: 25%;
+  right: 25%;
+}
+
+#lawsload-pageloading2 .awsload-divi2 {
+  font-size: 97px;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+#lawsload-pageloading2 .awsload-divi2 li {
+  position: absolute;
+  width: .2em;
+  height: .2em;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+#lawsload-pageloading2 .awsload-divi2 li:nth-child(1) {
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -.1em;
+  background: #e92971;
+  transform-origin: 50% 250%;
+  -o-transform-origin: 50% 250%;
+  -ms-transform-origin: 50% 250%;
+  -webkit-transform-origin: 50% 250%;
+  -moz-transform-origin: 50% 250%;
+  animation: awsload-rota 1.3s linear infinite, awsload-opa 4.22s ease-in-out infinite alternate;
+  -o-animation: awsload-rota 1.3s linear infinite, awsload-opa 4.22s ease-in-out infinite alternate;
+  -ms-animation: awsload-rota 1.3s linear infinite, awsload-opa 4.22s ease-in-out infinite alternate;
+  -webkit-animation: awsload-rota 1.3s linear infinite, awsload-opa 4.22s ease-in-out infinite alternate;
+  -moz-animation: awsload-rota 1.3s linear infinite, awsload-opa 4.22s ease-in-out infinite alternate;
+}
+
+#lawsload-pageloading2 .awsload-divi2 li:nth-child(2) {
+  top: 50%;
+  right: 0;
+  margin: -.1em 0 0 0;
+  background: #292ee9;
+  transform-origin: -150% 50%;
+  -o-transform-origin: -150% 50%;
+  -ms-transform-origin: -150% 50%;
+  -webkit-transform-origin: -150% 50%;
+  -moz-transform-origin: -150% 50%;
+  animation: awsload-rota 2.14s linear infinite, awsload-opa 4.93s ease-in-out infinite alternate;
+  -o-animation: awsload-rota 2.14s linear infinite, awsload-opa 4.93s ease-in-out infinite alternate;
+  -ms-animation: awsload-rota 2.14s linear infinite, awsload-opa 4.93s ease-in-out infinite alternate;
+  -webkit-animation: awsload-rota 2.14s linear infinite, awsload-opa 4.93s ease-in-out infinite alternate;
+  -moz-animation: awsload-rota 2.14s linear infinite, awsload-opa 4.93s ease-in-out infinite alternate;
+}
+
+#lawsload-pageloading2 .awsload-divi2 li:nth-child(3) {
+  left: 50%;
+  bottom: 0;
+  margin: 0 0 0 -.1em;
+  background: #29e9a3;
+  transform-origin: 50% -150%;
+  -o-transform-origin: 50% -150%;
+  -ms-transform-origin: 50% -150%;
+  -webkit-transform-origin: 50% -150%;
+  -moz-transform-origin: 50% -150%;
+  animation: awsload-rota 1.67s linear infinite, awsload-opa 5.89s ease-in-out infinite alternate;
+  -o-animation: awsload-rota 1.67s linear infinite, awsload-opa 5.89s ease-in-out infinite alternate;
+  -ms-animation: awsload-rota 1.67s linear infinite, awsload-opa 5.89s ease-in-out infinite alternate;
+  -webkit-animation: awsload-rota 1.67s linear infinite, awsload-opa 5.89s ease-in-out infinite alternate;
+  -moz-animation: awsload-rota 1.67s linear infinite, awsload-opa 5.89s ease-in-out infinite alternate;
+}
+
+#lawsload-pageloading2 .awsload-divi2 li:nth-child(4) {
+  top: 50%;
+  left: 0;
+  margin: -.1em 0 0 0;
+  background: #e9be29;
+  transform-origin: 250% 50%;
+  -o-transform-origin: 250% 50%;
+  -ms-transform-origin: 250% 50%;
+  -webkit-transform-origin: 250% 50%;
+  -moz-transform-origin: 250% 50%;
+  animation: awsload-rota 1.98s linear infinite, awsload-opa 6.04s ease-in-out infinite alternate;
+  -o-animation: awsload-rota 1.98s linear infinite, awsload-opa 6.04s ease-in-out infinite alternate;
+  -ms-animation: awsload-rota 1.98s linear infinite, awsload-opa 6.04s ease-in-out infinite alternate;
+  -webkit-animation: awsload-rota 1.98s linear infinite, awsload-opa 6.04s ease-in-out infinite alternate;
+  -moz-animation: awsload-rota 1.98s linear infinite, awsload-opa 6.04s ease-in-out infinite alternate;
+}
+
+@keyframes awsload-rota {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-ms-keyframes awsload-rota {
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes awsload-rota {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes awsload-opa {
+  12.0% {
+    opacity: 0.80;
+  }
+  19.5% {
+    opacity: 0.88;
+  }
+  37.2% {
+    opacity: 0.64;
+  }
+  40.5% {
+    opacity: 0.52;
+  }
+  52.7% {
+    opacity: 0.69;
+  }
+  60.2% {
+    opacity: 0.60;
+  }
+  66.6% {
+    opacity: 0.52;
+  }
+  70.0% {
+    opacity: 0.63;
+  }
+  79.9% {
+    opacity: 0.60;
+  }
+  84.2% {
+    opacity: 0.75;
+  }
+  91.0% {
+    opacity: 0.87;
+  }
+}
+@-ms-keyframes awsload-opa {
+  12.0% {
+    opacity: 0.80;
+  }
+  19.5% {
+    opacity: 0.88;
+  }
+  37.2% {
+    opacity: 0.64;
+  }
+  40.5% {
+    opacity: 0.52;
+  }
+  52.7% {
+    opacity: 0.69;
+  }
+  60.2% {
+    opacity: 0.60;
+  }
+  66.6% {
+    opacity: 0.52;
+  }
+  70.0% {
+    opacity: 0.63;
+  }
+  79.9% {
+    opacity: 0.60;
+  }
+  84.2% {
+    opacity: 0.75;
+  }
+  91.0% {
+    opacity: 0.87;
+  }
+}
+@-webkit-keyframes awsload-opa {
+  12.0% {
+    opacity: 0.80;
+  }
+  19.5% {
+    opacity: 0.88;
+  }
+  37.2% {
+    opacity: 0.64;
+  }
+  40.5% {
+    opacity: 0.52;
+  }
+  52.7% {
+    opacity: 0.69;
+  }
+  60.2% {
+    opacity: 0.60;
+  }
+  66.6% {
+    opacity: 0.52;
+  }
+  70.0% {
+    opacity: 0.63;
+  }
+  79.9% {
+    opacity: 0.60;
+  }
+  84.2% {
+    opacity: 0.75;
+  }
+  91.0% {
+    opacity: 0.87;
+  }
+}
+
+/*loader2 End */
